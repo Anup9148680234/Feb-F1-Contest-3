@@ -1,0 +1,84 @@
+*{
+    overflow: none;
+}
+
+
+
+#myCarousel > div{
+    width: 60vw;
+    margin: 0 auto;  
+}
+
+.carousel-item > img{
+    height: 300px;
+}
+
+.carousel-indicators{
+    position: relative;
+    top: 355px;
+}
+
+.carousel-caption{
+    position: relative;
+    top: 200px;
+}
+
+.carousel-control-prev , .carousel-control-next{
+    padding-top: 100px; 
+}
+
+.cards{ 
+    display: flex;
+    column-gap: 3vw;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.card{
+    width: 30%;
+}
+
+.card > img{
+    height: 140px;
+}
+
+@media screen and (max-width:650px){
+    #myCarousel > div{
+        width: 80vw;
+        margin: 0 auto;  
+    }
+    
+    img{
+        height: 200px;
+    }
+    
+    .carousel-indicators{
+        position: relative;
+        top: 355px;
+    }
+
+    .carousel-control-prev , .carousel-control-next{
+        padding-top: 120px; 
+    }
+
+    .cards{ 
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card{
+        align-self: center;
+        width: 100%;
+    }
+
+    .card > img{
+        height: 240px;
+    }
+
+}
+
+
+
+
+
