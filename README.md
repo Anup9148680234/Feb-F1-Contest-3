@@ -1,5 +1,9 @@
-<h1>February-Contest3-F1batch</h1>
+<h1>February-F1-Contest-3</h1>
 
-Please find the `Index.html` and `Style.css` files inside this project</h3>
+Contents:
+`1. index.html`
+`2. style.css`
+`3. 6 jpeg images`
+</h3>
 
 ####  Deployment 🚀 [Link]()
